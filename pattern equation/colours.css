@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    background: linear-gradient(to right top, rgb(247, 121, 232), rgb(31, 75, 255)); /* Soldan sağa geçiş */
+    height: 500vh;
+}
+.container{
+    text-align: center;
+    margin-top: 50vh;
+}
+.box{
+    padding: 15px 20px 15px 20px;
+    border-radius: 7px;
+    box-shadow: none;
+    border: none;
+    margin-bottom: 10px;
+    background-color: rgb(255, 182, 193);
+}
+input::placeholder{
+    font-weight: bolder;
+}
+button{
+    font-weight: bolder;
+    color: rgb(97, 96, 96);
+}
+.box:active{
+    padding: 15px 20px 15px 20px;
+    border-radius: 7px;
+    box-shadow: none;
+    border: none;
+    margin-bottom: 10px;
+    background-color: rgb(255, 182, 193);
+    color: bisque;
+}
